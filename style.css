@@ -1,0 +1,64 @@
+
+.container{
+    display: block;
+    margin-left: 15%;
+    margin-top: 4rem;
+}
+#stuName,#stuGrade,#stuCase{
+  background-color: beige;
+  padding: 0.5rem;
+  width: 40rem;
+  border-style: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: darkslategrey;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+#btn,#btnNode,#btn2{
+    display: inline;
+    border-radius: 1rem;
+    border-color: mistyrose;
+    width: max-content;
+    padding: 0.5rem;
+    background-color: orangered;
+    color: bisque;
+    font-weight: 500;
+    font-size: medium;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: larger;
+}
+#btn span,#btnNode span,#btn2{
+   
+    cursor: pointer;
+    transition: 0.5s;
+}
+#btn span:after,#btnNode span:after,#btn2{
+  opacity: 0;
+  content: '\00bb';
+  transition: 0.6s;
+
+}
+#btn:hover span,#btnNode:hover span,#btn2 {
+    opacity: 1;
+    transition: 0.5s;
+    content:'\00bb';
+    padding-right: 0.5rem;
+    padding-left: 0.6rem;
+    color: lightcyan;
+    font-size: medium;
+  }
+ 
+  
+  #btn:hover span:after,#btnNode:hover span:after {
+    opacity: 1;
+    transition: 0.6s;
+    right: 0;
+  }
+  #btn:hover,#btnNode:hover{
+    background-color: rgb(255, 123, 0);
+    margin-left: 0.5rem;
+  }
+  
